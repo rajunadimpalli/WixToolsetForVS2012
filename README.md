@@ -1,0 +1,1 @@
+# WixToolsetForVS2012
