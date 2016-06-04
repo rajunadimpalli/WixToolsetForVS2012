@@ -1,0 +1,2 @@
+C:\work\WixWebFormProject\WebSetup\bin\Release\en-us\WebSetup.msi
+C:\work\WixWebFormProject\WebSetup\bin\Release\en-us\WebSetup.wixpdb

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WixLocalization Culture="en-us" xmlns="http://schemas.microsoft.com/wix/2006/localization">
+  <String Id="InstallDirDlg_Title" Overridable="yes">
+    <!-- _locID_text="InstallDirDlg_Title" _locComment="InstallDirDlg_Title" -->[ProductName] Setup
+  </String>
+  <String Id="InstallDirDlgChange" Overridable="yes">
+    <!-- _locID_text="InstallDirDlgChange" _locComment="InstallDirDlgChange" -->&amp;Change
+  </String>
+  <String Id="InstallDirDlgTitle" Overridable="yes">
+    <!-- _locID_text="InstallDirDlgTitle" _locComment="InstallDirDlgTitle" -->Select Destination Folder
+  </String>
+  <String Id="InstallDirDlgDescription" Overridable="yes">
+    <!-- _locID_text="InstallDirDlgDescription" _locComment="InstallDirDlgDescription" -->Click Next to install to the default folder or click Change to choose another.
+  </String>
+  <String Id="InstallDirDlgBannerBitmap" Overridable="yes">
+    <!-- _locID_text="InstallDirDlgBannerBitmap" _locComment="InstallDirDlgBannerBitmap" -->WixUI_Bmp_Banner
+  </String>
+  <String Id="InstallDirDlgFolderLabel" Overridable="yes">
+    <!-- _locID_text="InstallDirDlgFolderLabel" _locComment="InstallDirDlgFolderLabel" -->Install [ProductName] to:
+  </String>
+  <String Id="CancelDlg_Title" Overridable="yes">
+    <!-- _locID_text="CancelDlg_Title" _locComment="CancelDlg_Title" -->[ProductName] Setup
+  </String>
+  <String Id="CancelDlgText" Overridable="yes">
+    <!-- _locID_text="CancelDlgText" _locComment="CancelDlgText" -->Are you sure you want to cancel [ProductName] installation?
+  </String>
+  <String Id="CancelDlgIcon" Overridable="yes">
+    <!-- _locID_text="CancelDlgIcon" _locComment="CancelDlgIcon" -->WixUI_Ico_Info
+  </String>
+  <String Id="CancelDlgIconTooltip" Overridable="yes">
+    <!-- _locID_text="CancelDlgIconTooltip" _locComment="CancelDlgIconTooltip" -->Information icon
+  </String>
+  <String Id="CancelDlg_Title" Overridable="yes">
+    <!-- _locID_text="CancelDlg_Title" _locComment="CancelDlg_Title" -->[ProductName] Setup
+  </String>
+  <String Id="CancelDlgText" Overridable="yes">
+    <!-- _locID_text="CancelDlgText" _locComment="CancelDlgText" -->Are you sure you want to cancel [ProductName] installation?
+  </String>
+  <String Id="CancelDlgIcon" Overridable="yes">
+    <!-- _locID_text="CancelDlgIcon" _locComment="CancelDlgIcon" -->WixUI_Ico_Info
+  </String>
+  <String Id="CancelDlgIconTooltip" Overridable="yes">
+    <!-- _locID_text="CancelDlgIconTooltip" _locComment="CancelDlgIconTooltip" -->Information icon
+  </String>
+
+  <String Id="BrowseDlg_Title" Overridable="yes">
+    <!-- _locID_text="BrowseDlg_Title" _locComment="BrowseDlg_Title" -->[ProductName] Setup
+  </String>
+  <String Id="WelcomeDlgBitmap" Overridable="yes">
+    <!-- _locID_text="WelcomeDlgBitmap" _locComment="WelcomeDlgBitmap" -->WixUI_Bmp_Dialog
+  </String>
+  <String Id="BrowseDlgComboLabel" Overridable="yes">
+    <!-- _locID_text="BrowseDlgComboLabel" _locComment="BrowseDlgComboLabel" -->&amp;Look in:
+  </String>
+  <String Id="BrowseDlgWixUI_Bmp_Up" Overridable="yes">
+    <!-- _locID_text="BrowseDlgWixUI_Bmp_Up" _locComment="BrowseDlgWixUI_Bmp_Up" -->Up
+  </String>
+  <String Id="BrowseDlgWixUI_Bmp_UpTooltip" Overridable="yes">
+    <!-- _locID_text="BrowseDlgWixUI_Bmp_UpTooltip" _locComment="BrowseDlgWixUI_Bmp_UpTooltip" -->Up one level
+  </String>
+  <String Id="BrowseDlgNewFolder" Overridable="yes">
+    <!-- _locID_text="BrowseDlgNewFolder" _locComment="BrowseDlgNewFolder" -->New
+  </String>
+  <String Id="BrowseDlgNewFolderTooltip" Overridable="yes">
+    <!-- _locID_text="BrowseDlgNewFolderTooltip" _locComment="BrowseDlgNewFolderTooltip" -->Create a new folder
+  </String>
+  <String Id="BrowseDlgPathLabel" Overridable="yes">
+    <!-- _locID_text="BrowseDlgPathLabel" _locComment="BrowseDlgPathLabel" -->&amp;Folder name:
+  </String>
+  <String Id="BrowseDlgBannerBitmap" Overridable="yes">
+    <!-- _locID_text="BrowseDlgBannerBitmap" _locComment="BrowseDlgBannerBitmap" -->bannrbmp
+  </String>
+  <String Id="BrowseDlgDescription" Overridable="yes">
+    <!-- _locID_text="BrowseDlgDescription" _locComment="BrowseDlgDescription" -->Browse to the destination folder
+  </String>
+  <String Id="BrowseDlgTitle" Overridable="yes">
+    <!-- _locID_text="BrowseDlgTitle" _locComment="BrowseDlgTitle" -->Change destination folder
+  </String>
+
+
+  <String Id="DefaultWebSiteName" Overridable="yes">Default Web Site</String>
+  <String Id="DefaultAppPoolName" Overridable="yes">DefaultAppPool</String>
+  <String Id="InvalidWebAppNameDlgText" Overridable="yes">
+    The web application name cannot be a blank value.
+  </String>
+  <String Id="WebAppInstallDlgTitle" Overridable="yes">
+    <!-- _locID_text="WebAppInstallDlgTitle" _locComment="WebAppInstallDlgTitle" -->{\WixUI_Font_Title}Web Application Settings
+  </String>
+  <String Id="WebAppInstallDlgDescription" Overridable="yes">Click Next to install the web application or change the individual settings.</String>
+  <String Id="WebAppInstallDlgWebSiteLabel" Overridable="yes">Install [ProductName] in the to the web site:</String>
+  <String Id="WebAppInstallDlgAppNameLabel" Overridable="yes">Install [ProductName] to the application named:</String>
+  <String Id="WebAppInstallDlgUseCustomAppPool" Overridable="yes">Use a custom app pool instead of the web site default</String>
+  <String Id="WebAppInstallDlgAppPoolLabel" Overridable="yes">Install [ProductName] to use the custom app pool:</String>
+</WixLocalization>

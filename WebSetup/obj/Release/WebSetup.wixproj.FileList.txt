@@ -1,0 +1,8 @@
+obj\Release\Product.wixobj
+obj\Release\UI_Texts.wixobj
+obj\Release\WebSetupSource.wixobj
+C:\work\WixWebFormProject\WebSetup\bin\Release\en-us\WebSetup.msi
+C:\work\WixWebFormProject\WebSetup\bin\Release\en-us\WebSetup.wixpdb
+obj\Release\WebSetup.wixproj.BindContentsFileListen-us.txt
+obj\Release\WebSetup.wixproj.BindOutputsFileListen-us.txt
+obj\Release\WebSetup.wixproj.BindBuiltOutputsFileListen-us.txt

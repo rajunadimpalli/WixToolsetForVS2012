@@ -1,0 +1,551 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <Fragment>
+        <DirectoryRef Id="INSTALLLOCATION">
+            <Component Id="cmp719DF3F5F4DA026D12660707674BDC81" Guid="{8D583B0F-CA85-48B0-B26E-F56B563B1E97}">
+                <File Id="fil07C61832AB8832C764AC637EF2502E88" KeyPath="yes" Source="$(var.publishpath)\About.aspx" />
+            </Component>
+            <Component Id="cmp62FA418252C11C2D323B7FF5657B0A11" Guid="{7D40C729-0CC0-4E01-88A4-44ECE883A793}">
+                <File Id="fil30B0E6710BD7179E96C3C6F066B78F22" KeyPath="yes" Source="$(var.publishpath)\Bundle.config" />
+            </Component>
+            <Component Id="cmpFE199C9F0949417798AB665C5040DC4F" Guid="{9D479039-54D6-49EA-BC85-76E0C8C154AF}">
+                <File Id="fil44FC90B634EFB27FF1E02945C454E489" KeyPath="yes" Source="$(var.publishpath)\Contact.aspx" />
+            </Component>
+            <Component Id="cmpCBE03EE0AF9F6B0841326F548614EE48" Guid="{D069B19A-867B-45DD-A93C-8CB7C70693B4}">
+                <File Id="fil828898A5DCFCC85E98FD11586D777D4B" KeyPath="yes" Source="$(var.publishpath)\Default.aspx" />
+            </Component>
+            <Component Id="cmp18BCDCBE7DFEDEAC86EBAA695FE5CDC3" Guid="{CC93B954-A0A9-4171-A5DD-2D6E39FF609A}">
+                <File Id="fil62DDF69CC427A28D37806B9D6E98E9DE" KeyPath="yes" Source="$(var.publishpath)\favicon.ico" />
+            </Component>
+            <Component Id="cmp93645FCD1A13835D0DFCD156CF2C6C64" Guid="{740B5DB3-54BA-44D4-90BF-ADB6E9607359}">
+                <File Id="fil00A150C9AD477E1EE4E8CA4503876DA9" KeyPath="yes" Source="$(var.publishpath)\Global.asax" />
+            </Component>
+            <Component Id="cmpFED9CE4C040C6D017106CB6B92C2F157" Guid="{D06C2029-2463-4C93-90F7-807564E2B3DC}">
+                <File Id="fil43F031812C2D8647225696DDDF358FCA" KeyPath="yes" Source="$(var.publishpath)\packages.config" />
+            </Component>
+            <Component Id="cmp45D4EBF4DADDD690A9BEE3E1E4C7506F" Guid="{2D53B3C8-51B6-48F0-9625-F98A0EC5B2D9}">
+                <File Id="fil7C2E79B7C663C552CAE24BE5FF070F34" KeyPath="yes" Source="$(var.publishpath)\Site.Master" />
+            </Component>
+            <Component Id="cmpFB33635B7D7AF5906B5DFB25D7E4F343" Guid="{BBB077C6-50C9-41EA-B4E1-FAB04A5F6719}">
+                <File Id="fil0AB648957C4B57849C7F7229ADDD83F2" KeyPath="yes" Source="$(var.publishpath)\Web.config" />
+            </Component>
+            <Directory Id="dir048277C0A93F09FA1270152013A3B842" Name="Account">
+                <Component Id="cmpBDC37B6F8E3C1ECF6292AC1E77FF629A" Guid="{4F06F9BE-756B-4818-B2D4-C15E77F3D0F2}">
+                    <File Id="fil96190A6078A0F155A9AFC5CD42781DD3" KeyPath="yes" Source="$(var.publishpath)\Account\Login.aspx" />
+                </Component>
+                <Component Id="cmp1A5F11D7EA5083C96CEF3D4562026A6E" Guid="{D783E632-CB7C-4EBE-A81D-9AE890A3D804}">
+                    <File Id="filD7187ACBB9A986124FFDCB1158EB0070" KeyPath="yes" Source="$(var.publishpath)\Account\Manage.aspx" />
+                </Component>
+                <Component Id="cmp537319E8938999188EC9C5D879C14EE4" Guid="{6400A686-85FE-4664-BA42-246AA85924D7}">
+                    <File Id="fil5E3AFBC802E7C8A383EF50BC6A150A05" KeyPath="yes" Source="$(var.publishpath)\Account\OpenAuthProviders.ascx" />
+                </Component>
+                <Component Id="cmp0EFFD795BC052D7B5395E3BCE1C3515E" Guid="{2496E9F9-6A74-4422-B4BE-6E1B7A737E54}">
+                    <File Id="fil989A214671C86093C91673E3FDC063A9" KeyPath="yes" Source="$(var.publishpath)\Account\Register.aspx" />
+                </Component>
+                <Component Id="cmp9232063002B414C6D33F7E5302D00DE6" Guid="{B03F1089-3697-43CE-BAD9-49A1F3B4F4AA}">
+                    <File Id="fil3BDBFBC20E3305E19CED2144BFBEC2E2" KeyPath="yes" Source="$(var.publishpath)\Account\RegisterExternalLogin.aspx" />
+                </Component>
+                <Component Id="cmp6970105A866492CCD53F4BFE651666C1" Guid="{B57A7740-B644-4944-8B9C-64329328BB23}">
+                    <File Id="fil00A40094CBFC904F554955D53464DA26" KeyPath="yes" Source="$(var.publishpath)\Account\Web.config" />
+                </Component>
+            </Directory>
+            <Directory Id="dirBD8892FBCC64DA5924D7F747259B8B87" Name="bin">
+                <Component Id="cmpA426106E50E83F038FBE746C1E09504B" Guid="{35B13073-272F-4FF9-91CC-8E8320B9C3C2}">
+                    <File Id="fil2068C2DE7BA3DCB84001A0873DD12263" KeyPath="yes" Source="$(var.publishpath)\bin\Antlr3.Runtime.dll" />
+                </Component>
+                <Component Id="cmp5994A07D38DA97416E251DE4C99E5192" Guid="{6508AC8B-D684-4236-825E-775024EEDA78}">
+                    <File Id="filBC6C14C745CC6101D8C71E321AE091B9" KeyPath="yes" Source="$(var.publishpath)\bin\AspNet.ScriptManager.jQuery.dll" />
+                </Component>
+                <Component Id="cmpC9691BA20F1D8C2B670CE77D04C695E5" Guid="{898CF1E0-682F-4E51-B48B-E3DE178B8B69}">
+                    <File Id="fil4EA988977ADD4A434262E153519FB7A1" KeyPath="yes" Source="$(var.publishpath)\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll" />
+                </Component>
+                <Component Id="cmp1AE9D59440E32A44BECFD7E3C99DEAAB" Guid="{85AADE94-B1D1-4D47-85D1-502DABCC7AB8}">
+                    <File Id="fil9A02D59BF01F5F145D38A8F3087C4B8A" KeyPath="yes" Source="$(var.publishpath)\bin\DotNetOpenAuth.AspNet.dll" />
+                </Component>
+                <Component Id="cmp1994A1D8152BEAA96BE3CB515C9D32BF" Guid="{0FB34776-9D2D-4A2D-A361-947BCE94BB1F}">
+                    <File Id="fil4DC40DE21057D5DEA465C8D72CFD0DB6" KeyPath="yes" Source="$(var.publishpath)\bin\DotNetOpenAuth.Core.dll" />
+                </Component>
+                <Component Id="cmp466306F21137983420DA54DC72184491" Guid="{D591B81F-DEFA-4FD5-B87C-DF97CEE2B9D4}">
+                    <File Id="filC1354E725706D1235E4DE830818C712D" KeyPath="yes" Source="$(var.publishpath)\bin\DotNetOpenAuth.OAuth.Consumer.dll" />
+                </Component>
+                <Component Id="cmpA875C0565FC26F51652DC264048D60BE" Guid="{20F96340-20C1-442D-8CD7-1DF00937D4AF}">
+                    <File Id="fil45264D04532721DF023A39F04F17EE52" KeyPath="yes" Source="$(var.publishpath)\bin\DotNetOpenAuth.OAuth.dll" />
+                </Component>
+                <Component Id="cmpDBBF4DF2CD78343AD19B34D9DFCA9CFF" Guid="{201688EA-4AE9-4A1E-A57A-D3644D9382E1}">
+                    <File Id="filCE35456964C7FD51A6B78787972F65E9" KeyPath="yes" Source="$(var.publishpath)\bin\DotNetOpenAuth.OpenId.dll" />
+                </Component>
+                <Component Id="cmp9FB708CCE7E8331648511084D866DB94" Guid="{9D946700-0711-4219-AD7B-923878AE3CBA}">
+                    <File Id="fil2FC1FBD7B657612630C8BC966FCEF960" KeyPath="yes" Source="$(var.publishpath)\bin\DotNetOpenAuth.OpenId.RelyingParty.dll" />
+                </Component>
+                <Component Id="cmp3D8F7A091348223A4D8D6B969300CBE5" Guid="{9C130358-70B7-476D-9ACF-E1EFEA7E9EEB}">
+                    <File Id="fil3841F7E96C4DD01A16290B6A3F201B9B" KeyPath="yes" Source="$(var.publishpath)\bin\EntityFramework.dll" />
+                </Component>
+                <Component Id="cmpB82AC8EF4E5EE01CCEEFC1FB5D25B892" Guid="{68EC5A3C-D0D6-4749-ACA2-E269814931D7}">
+                    <File Id="fil90C1F3ED9A8E5F599420E88A39F1516F" KeyPath="yes" Source="$(var.publishpath)\bin\Microsoft.AspNet.Membership.OpenAuth.dll" />
+                </Component>
+                <Component Id="cmpFA20A8C605D1633264086FD2BE9D61AB" Guid="{DD0B4341-D7D2-40A8-9CCD-40675A08943D}">
+                    <File Id="filBFB63D54C82974F5797C4F5F832A7A09" KeyPath="yes" Source="$(var.publishpath)\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll" />
+                </Component>
+                <Component Id="cmp82B1D7908F9E0FFF16165F977511C7ED" Guid="{A5D2F4E9-FF40-4A2E-A0C7-6631177F04BA}">
+                    <File Id="fil737443E5F1D5D4584A6285EB171851CF" KeyPath="yes" Source="$(var.publishpath)\bin\Microsoft.ScriptManager.MSAjax.dll" />
+                </Component>
+                <Component Id="cmpA2394B4EBDEEF60FD2C1AD22D8F121A3" Guid="{BBD59186-C5AA-4A15-A4DE-5FC1A5C3B9F0}">
+                    <File Id="fil9A454D8110227A11045EFCDC2E9CB877" KeyPath="yes" Source="$(var.publishpath)\bin\Microsoft.ScriptManager.WebForms.dll" />
+                </Component>
+                <Component Id="cmp48B5CE506D86BF39F5848F1D62F6CFAE" Guid="{8DE4D80C-FA53-48C4-9855-7C5BE7ECFF07}">
+                    <File Id="fil4A13ABF803EECCA5885EFAE4997322B4" KeyPath="yes" Source="$(var.publishpath)\bin\Microsoft.Web.Infrastructure.dll" />
+                </Component>
+                <Component Id="cmp6A31FB8007844E13E98BD2057F458827" Guid="{2EDB616D-95D6-41BA-B52F-2BDC64BF1C0F}">
+                    <File Id="fil57A989C4CFAB42F2C1A989306D96AFC0" KeyPath="yes" Source="$(var.publishpath)\bin\System.Web.Optimization.dll" />
+                </Component>
+                <Component Id="cmpACD232D7A34CC85C4E47206CF085DFE7" Guid="{6191A3A1-005C-4499-9B8B-D896C6147A77}">
+                    <File Id="fil40DED51493EAF65C09ADE7DD2D6A8E19" KeyPath="yes" Source="$(var.publishpath)\bin\System.Web.Providers.dll" />
+                </Component>
+                <Component Id="cmp1D6184B64F3F1969AF56912F31422062" Guid="{AFCD4370-79E2-46E5-8CA4-DB6BB6D7F447}">
+                    <File Id="fil4738D99EE8C94A9F1F6B77A9CEC21B43" KeyPath="yes" Source="$(var.publishpath)\bin\WebGrease.dll" />
+                </Component>
+                <Component Id="cmp2E3CBC77EE2DA22117D475710026E65D" Guid="{2FD73EDB-5697-4AA6-AD17-8F32C3BFC5C7}">
+                    <File Id="filD41B9FB9E91DC348AF977B619481C43A" KeyPath="yes" Source="$(var.publishpath)\bin\WixWebFormProject.dll" />
+                </Component>
+            </Directory>
+            <Directory Id="dir3B24C977B030062216D87253D9E23E51" Name="Content">
+                <Component Id="cmp96D710794B45BA988996F24A42EB7670" Guid="{34FB57EC-17CA-41D4-BC5D-E359348CA778}">
+                    <File Id="fil097FB541D2EA9DD548D13E2B359D9C84" KeyPath="yes" Source="$(var.publishpath)\Content\Site.css" />
+                </Component>
+                <Directory Id="dir015EFFEE5C1DF1A9E8D5781D25B6FCA2" Name="themes">
+                    <Directory Id="dir77299BC97C781ADE65904FBFFE0570D7" Name="base">
+                        <Component Id="cmp7D32B33DA322230F7DC919F90E5041A6" Guid="{4E565E77-AE11-4AC3-86FB-CDF3E5EE77FD}">
+                            <File Id="filEE696B5B921B3B9B0E5C3F0765049FCB" KeyPath="yes" Source="$(var.publishpath)\Content\themes\base\jquery-ui.css" />
+                        </Component>
+                        <Component Id="cmp65CBA895D76D68985A7484C4C419D281" Guid="{42C89794-DDBB-4C61-8A58-1ABF3E8CEAB9}">
+                            <File Id="fil283F7F7B174B3E935943F109305C050C" KeyPath="yes" Source="$(var.publishpath)\Content\themes\base\jquery.ui.accordion.css" />
+                        </Component>
+                        <Component Id="cmp70388B6DFB9092F6FA976A399468962F" Guid="{5050CCBE-B297-4A81-BBC1-0F7339347341}">
+                            <File Id="filB02AA1E7DCEE5BAA17D9D89F39DF7A07" KeyPath="yes" Source="$(var.publishpath)\Content\themes\base\jquery.ui.all.css" />
+                        </Component>
+                        <Component Id="cmpE0D4B6E96EECD3FF025F0B18C6669062" Guid="{DA6C37E9-FCFF-44F0-B911-B71194FB7241}">
+                            <File Id="fil27EF60D0264223BE5B157F0E72DDADB5" KeyPath="yes" Source="$(var.publishpath)\Content\themes\base\jquery.ui.autocomplete.css" />
+                        </Component>
+                        <Component Id="cmp69995C57DD03BAA452E835DEE8B0B160" Guid="{86702442-6FE8-4DD8-83F5-D6CBA410713B}">
+                            <File Id="filED566D4283A98097B764BC7D1327D6A4" KeyPath="yes" Source="$(var.publishpath)\Content\themes\base\jquery.ui.base.css" />
+                        </Component>
+                        <Component Id="cmp89B1091045DF86B8C3009E8DC4D4ED9B" Guid="{6FB4EEC2-0DDE-4067-B7AF-06A20D818A16}">
+                            <File Id="fil307570BB5D680F3A05A664301EB362C5" KeyPath="yes" Source="$(var.publishpath)\Content\themes\base\jquery.ui.button.css" />
+                        </Component>
+                        <Component Id="cmp70B2717E07A77221D8C8D856BF0A9E36" Guid="{7A8FCC7B-87A8-401F-B78F-07CD677DDD94}">
+                            <File Id="fil642C17536E5BBE1A5431196F4C1949FE" KeyPath="yes" Source="$(var.publishpath)\Content\themes\base\jquery.ui.core.css" />
+                        </Component>
+                        <Component Id="cmpC4AC8D1A02FC3180B061D4ABE91866FB" Guid="{6B74D756-35A0-4B7D-A2AB-7D2E21FCDC5D}">
+                            <File Id="filA6C34E4654401B1BF083F48B75EDE097" KeyPath="yes" Source="$(var.publishpath)\Content\themes\base\jquery.ui.datepicker.css" />
+                        </Component>
+                        <Component Id="cmpB1C0658923DC8CB6D3A492A0482B68C6" Guid="{65AF1912-1778-4A6B-87CE-1A40660C0195}">
+                            <File Id="filBE1BF8080F067B744996E72ACCC19E05" KeyPath="yes" Source="$(var.publishpath)\Content\themes\base\jquery.ui.dialog.css" />
+                        </Component>
+                        <Component Id="cmpF86D11067B3B32240AA44D735D6FB591" Guid="{3C9033EF-8D30-46E0-A284-B2B4CF3001CB}">
+                            <File Id="fil8B05356133E25CC7EA0068C462D50FF5" KeyPath="yes" Source="$(var.publishpath)\Content\themes\base\jquery.ui.progressbar.css" />
+                        </Component>
+                        <Component Id="cmp6342080440448D35341C9C957F602267" Guid="{48ACDF25-3FAB-4686-8F76-702A1355892A}">
+                            <File Id="fil648C01589A68C1F7EB8B037531C7728A" KeyPath="yes" Source="$(var.publishpath)\Content\themes\base\jquery.ui.resizable.css" />
+                        </Component>
+                        <Component Id="cmp341AF8B58A3700EB8ABAC123371812EB" Guid="{E62905C9-AB7D-46E2-8A95-1DE9B58A96CA}">
+                            <File Id="fil369A322B3E6353BA333191368CF1D6D8" KeyPath="yes" Source="$(var.publishpath)\Content\themes\base\jquery.ui.selectable.css" />
+                        </Component>
+                        <Component Id="cmp9ECE4C2BEBB281D72090EF8DE783C495" Guid="{81A3407D-B4FC-4E23-92AE-9CA772794DB7}">
+                            <File Id="filFF88D7A0B56A4F4BA8EDA93D2631FB6C" KeyPath="yes" Source="$(var.publishpath)\Content\themes\base\jquery.ui.slider.css" />
+                        </Component>
+                        <Component Id="cmpCD21E6C9396C35B5DE6819F0BC31443B" Guid="{B1502BC9-BB53-4027-81D1-285430238DA0}">
+                            <File Id="fil6B88CA286A34D42D3F75FCBD96B351F0" KeyPath="yes" Source="$(var.publishpath)\Content\themes\base\jquery.ui.tabs.css" />
+                        </Component>
+                        <Component Id="cmpEAD398A4AF779D2F906E276ABC7E6A9E" Guid="{991E1127-A734-4990-8AB4-4A838A282B00}">
+                            <File Id="filBFD97B4DA872DD3EB2FA4327480CD5BB" KeyPath="yes" Source="$(var.publishpath)\Content\themes\base\jquery.ui.theme.css" />
+                        </Component>
+                        <Directory Id="dir3208FA9A98F1DE2839FD4DB04D3DB17C" Name="images">
+                            <Component Id="cmpF288DE642F124EE2B23B92CAE403F439" Guid="{25E23FD9-5FD4-497B-9FD3-443EA9BF689A}">
+                                <File Id="fil7F57764F491B4E0AD524562A8CC1EF7C" KeyPath="yes" Source="$(var.publishpath)\Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+                            </Component>
+                            <Component Id="cmp0EE80B0B7B32D2B71B8CE23A9B76CF3B" Guid="{88A00C41-6649-4B0D-89B9-4D7553AFEB85}">
+                                <File Id="fil3430F780B15F5577606393A8EAAED93B" KeyPath="yes" Source="$(var.publishpath)\Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
+                            </Component>
+                            <Component Id="cmp4BF7CB5FBF4D2A79C7F73C92B0CEDD35" Guid="{8571AA24-7D7D-49D9-8A6B-A5B3E09BA418}">
+                                <File Id="fil9D7EDCEF1E941A129E625D2E3DDC3352" KeyPath="yes" Source="$(var.publishpath)\Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+                            </Component>
+                            <Component Id="cmp03EF69705E1A92F8BFA1EA14BFB1273F" Guid="{E03324AA-12BD-4AE1-A85D-7FE1D8C3D040}">
+                                <File Id="fil5D4E7642B8EB2D22E3B3FE202D664FC6" KeyPath="yes" Source="$(var.publishpath)\Content\themes\base\images\ui-bg_glass_65_ffffff_1x400.png" />
+                            </Component>
+                            <Component Id="cmp56C408206E3AC944DD3F1693CD583C68" Guid="{694790C4-238D-446E-B7C6-61D559A58C36}">
+                                <File Id="filC0C5AA455BB088349E313CEBE20A5F71" KeyPath="yes" Source="$(var.publishpath)\Content\themes\base\images\ui-bg_glass_75_dadada_1x400.png" />
+                            </Component>
+                            <Component Id="cmp3C36A43B585B3F9423B9ED641576F72B" Guid="{A2AB2288-CA1F-47F5-B3AD-DE644FF0909F}">
+                                <File Id="fil8922A3C7A1A7D00100DE37EFABABEAD6" KeyPath="yes" Source="$(var.publishpath)\Content\themes\base\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+                            </Component>
+                            <Component Id="cmpB01FEE7081EADF0167666B28776834B3" Guid="{01CB710E-8BDD-4192-A78B-190B7ABBB302}">
+                                <File Id="fil80B2B447D75934805EDC4C7CC248B537" KeyPath="yes" Source="$(var.publishpath)\Content\themes\base\images\ui-bg_glass_95_fef1ec_1x400.png" />
+                            </Component>
+                            <Component Id="cmp6FF6C26AE5FE821EE6E39031E91B8883" Guid="{0B4D64D4-8FD3-41E0-B4DF-4E608335F872}">
+                                <File Id="filDC01695B25433BC3CCE5324B7818EDD2" KeyPath="yes" Source="$(var.publishpath)\Content\themes\base\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+                            </Component>
+                            <Component Id="cmp30F66DD1FBC221AAEC49DE927F45567E" Guid="{86C2D0EA-D700-468C-B0DA-A63F1F5B3195}">
+                                <File Id="filA2F8FB54C79C169EA81F6922B020FA07" KeyPath="yes" Source="$(var.publishpath)\Content\themes\base\images\ui-icons_222222_256x240.png" />
+                            </Component>
+                            <Component Id="cmpC7F191B8F424383417E4F3066458005E" Guid="{A9FDD186-6301-40D7-BE1E-BD378D38A31F}">
+                                <File Id="fil1793EB1ADE6434B3019D4A293C4570C0" KeyPath="yes" Source="$(var.publishpath)\Content\themes\base\images\ui-icons_2e83ff_256x240.png" />
+                            </Component>
+                            <Component Id="cmpA46E2D74FC3A1FF3DF9705A97811B88F" Guid="{A1804B88-732E-4861-BA14-7EAF8B545AF0}">
+                                <File Id="fil124CF5047936D6B386ED66D1B27CB010" KeyPath="yes" Source="$(var.publishpath)\Content\themes\base\images\ui-icons_454545_256x240.png" />
+                            </Component>
+                            <Component Id="cmp04CC520CCE38DA6741DADA3B68F944A7" Guid="{A3A3F454-0363-4280-8461-9EC48468E1B8}">
+                                <File Id="fil88258F0B9C889C65BA1056C664826BD5" KeyPath="yes" Source="$(var.publishpath)\Content\themes\base\images\ui-icons_888888_256x240.png" />
+                            </Component>
+                            <Component Id="cmpC8DF68CAD53D0F4B705F59B27FF562C9" Guid="{984AC67B-E360-4A09-903A-95D60E01F839}">
+                                <File Id="filD83BDC1A67DEE0293D3D03CCC79E6411" KeyPath="yes" Source="$(var.publishpath)\Content\themes\base\images\ui-icons_cd0a0a_256x240.png" />
+                            </Component>
+                        </Directory>
+                        <Directory Id="dir524E5CE9134578F81E710BBCE7E201DB" Name="minified">
+                            <Component Id="cmp07CDE5E947F4B3BC91CFA7BE4CD1D911" Guid="{39C60E98-16A4-4A49-A19E-1EC2EE557137}">
+                                <File Id="fil7299CBC84C30350EBEC88A0CCBD30118" KeyPath="yes" Source="$(var.publishpath)\Content\themes\base\minified\jquery-ui.min.css" />
+                            </Component>
+                            <Component Id="cmpE2E2D6B0B1A8A7DBE7D8C557A563C037" Guid="{26EC3215-BDB7-4B06-85A6-7606B04842B7}">
+                                <File Id="filB58243666D4A7C7E9ECC03E1E22EA9D8" KeyPath="yes" Source="$(var.publishpath)\Content\themes\base\minified\jquery.ui.accordion.min.css" />
+                            </Component>
+                            <Component Id="cmpA61134AA83F24C9E1DE88F4D90250214" Guid="{C1BE5B44-B81E-47AD-AB89-50D0CFD2B741}">
+                                <File Id="fil8A65E794954DE3678FAFC05F2E5A766F" KeyPath="yes" Source="$(var.publishpath)\Content\themes\base\minified\jquery.ui.autocomplete.min.css" />
+                            </Component>
+                            <Component Id="cmpB998616EF6000BFD3117344825E94FDA" Guid="{CDDE61EB-77BD-4E3A-A1F7-5BC420B70724}">
+                                <File Id="fil191A9476F18331674C946470D0E50559" KeyPath="yes" Source="$(var.publishpath)\Content\themes\base\minified\jquery.ui.button.min.css" />
+                            </Component>
+                            <Component Id="cmp0EEC7DE1352CC02F2FA0D9352C3816BB" Guid="{9516C161-2F1D-4B02-9CD0-89AF876A76FD}">
+                                <File Id="fil1B7DFCFCCB952136E3C10FCDB3A2D242" KeyPath="yes" Source="$(var.publishpath)\Content\themes\base\minified\jquery.ui.core.min.css" />
+                            </Component>
+                            <Component Id="cmp02E2881DCD52ABC943C593320ED2365D" Guid="{393F68CC-4980-46DE-8B4A-3FED006490E0}">
+                                <File Id="fil555F0C1EDA2119B2E546823958A61DE1" KeyPath="yes" Source="$(var.publishpath)\Content\themes\base\minified\jquery.ui.datepicker.min.css" />
+                            </Component>
+                            <Component Id="cmpD157938750EC9D9EFE989051AF8801F4" Guid="{0D07AB3A-AA7D-4B13-9C56-EDBC2151010C}">
+                                <File Id="fil1E4C6F0F1A76746CA83496C43DFF48B6" KeyPath="yes" Source="$(var.publishpath)\Content\themes\base\minified\jquery.ui.dialog.min.css" />
+                            </Component>
+                            <Component Id="cmp90450BC0B85494A8D2DE75089AAEFB54" Guid="{62F87E73-386B-479F-A1EE-947911579656}">
+                                <File Id="filC3DA0A5832952F39D43557B619C6EDE5" KeyPath="yes" Source="$(var.publishpath)\Content\themes\base\minified\jquery.ui.progressbar.min.css" />
+                            </Component>
+                            <Component Id="cmp802808959CE936654393D37AB6393869" Guid="{636672B7-6143-4F7F-8D6B-61498A5A5D97}">
+                                <File Id="fil9D705305C4F9353D6E11FA899C7E1905" KeyPath="yes" Source="$(var.publishpath)\Content\themes\base\minified\jquery.ui.resizable.min.css" />
+                            </Component>
+                            <Component Id="cmp612E760EBF3DD2601DCADC0C803E860E" Guid="{944BF944-C3D3-4ED5-A801-41BF3DE60E6C}">
+                                <File Id="fil6142A85C69F5319DD7F79ABAC7CF82C5" KeyPath="yes" Source="$(var.publishpath)\Content\themes\base\minified\jquery.ui.selectable.min.css" />
+                            </Component>
+                            <Component Id="cmp7140C70C81B7BA0318F0EF9E9689845F" Guid="{92826AFE-311A-4FAA-8A92-8D48F57FEEF1}">
+                                <File Id="filB50F248BA3F919E421D61C8CFABD9FD4" KeyPath="yes" Source="$(var.publishpath)\Content\themes\base\minified\jquery.ui.slider.min.css" />
+                            </Component>
+                            <Component Id="cmp6F35041CAAFFE666309F3529770CF315" Guid="{CB248316-4C61-4FE8-A76A-4E5861FEE524}">
+                                <File Id="fil910E05841E71EDFE8D126D4228111743" KeyPath="yes" Source="$(var.publishpath)\Content\themes\base\minified\jquery.ui.tabs.min.css" />
+                            </Component>
+                            <Component Id="cmpAA0EF83AC56D1C1C7EA83B599DED4E0E" Guid="{D12E2CD5-14A0-48D5-80F5-2351BD902A8B}">
+                                <File Id="fil062AA1942F6C2E668501D63E6681E21B" KeyPath="yes" Source="$(var.publishpath)\Content\themes\base\minified\jquery.ui.theme.min.css" />
+                            </Component>
+                            <Directory Id="dir6401D85370B249E43BB36E1BABC29162" Name="images">
+                                <Component Id="cmpCD5C94AA5AD56996F8BE2C3333507831" Guid="{A53CADCD-C117-447B-B28F-87CC5179807A}">
+                                    <File Id="filAC349C47C6E8CD1A37C6D5B9287FA0BC" KeyPath="yes" Source="$(var.publishpath)\Content\themes\base\minified\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+                                </Component>
+                                <Component Id="cmp599307B4961DC6E468FEE160B56B0D53" Guid="{8A59827F-236F-47EC-8DEF-49165B5BE87E}">
+                                    <File Id="fil2C429BC1A9CC83EB2F33C3F152286D70" KeyPath="yes" Source="$(var.publishpath)\Content\themes\base\minified\images\ui-bg_flat_75_ffffff_40x100.png" />
+                                </Component>
+                                <Component Id="cmp8BBEB1863D9A5417BF4C9983ABF0FB9E" Guid="{96937910-6445-4C21-A233-F587F4F1A486}">
+                                    <File Id="filE6578F83EDE4F5DE8991272E93CED705" KeyPath="yes" Source="$(var.publishpath)\Content\themes\base\minified\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+                                </Component>
+                                <Component Id="cmp7986EA15840B216EEA8CD3A9B2056BE0" Guid="{86B63B6F-D06F-4223-96E7-C6C973D03629}">
+                                    <File Id="fil769CB9F49DC8C11CCFE970431B5941C5" KeyPath="yes" Source="$(var.publishpath)\Content\themes\base\minified\images\ui-bg_glass_65_ffffff_1x400.png" />
+                                </Component>
+                                <Component Id="cmp28A5BD1B788BFEAEE764D46163A2EB56" Guid="{53F01A0F-039C-42E5-A61A-2952A8DAF7F3}">
+                                    <File Id="fil603484F747FF39CBB0C883F831E01874" KeyPath="yes" Source="$(var.publishpath)\Content\themes\base\minified\images\ui-bg_glass_75_dadada_1x400.png" />
+                                </Component>
+                                <Component Id="cmp171EB57FD52B61688B63553281B6DA55" Guid="{55360B0E-929E-44AA-9675-2B36645A6A4E}">
+                                    <File Id="fil7D1650F3FA2131D610BE9A476E52AB8D" KeyPath="yes" Source="$(var.publishpath)\Content\themes\base\minified\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+                                </Component>
+                                <Component Id="cmp82F2F6F6516175D8F7509E473B02A594" Guid="{A0FA76F1-01D1-42C6-985A-618A4A0C3277}">
+                                    <File Id="filE434BC330868EC628C0A77758FC57CEC" KeyPath="yes" Source="$(var.publishpath)\Content\themes\base\minified\images\ui-bg_glass_95_fef1ec_1x400.png" />
+                                </Component>
+                                <Component Id="cmp05E4BA3A49B00F086A70C5D2518822FE" Guid="{F6AB3DFD-71C6-4023-A829-8BD31046FCB7}">
+                                    <File Id="fil9FE6489D09384164536E690B3F67CE43" KeyPath="yes" Source="$(var.publishpath)\Content\themes\base\minified\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+                                </Component>
+                                <Component Id="cmp5325A2852789EB380852F754918B1F3B" Guid="{FD9B2DEB-68CF-4FCE-8D31-EA42A8505DB6}">
+                                    <File Id="filA437FAFE479EF7DD27D7238DE9087956" KeyPath="yes" Source="$(var.publishpath)\Content\themes\base\minified\images\ui-icons_222222_256x240.png" />
+                                </Component>
+                                <Component Id="cmp74D81012D881530DE54E7ED1CAB3157E" Guid="{7F65C47F-0AF3-457D-996C-BF496A13C6AF}">
+                                    <File Id="fil489702A26371231D69321A3850EEF380" KeyPath="yes" Source="$(var.publishpath)\Content\themes\base\minified\images\ui-icons_2e83ff_256x240.png" />
+                                </Component>
+                                <Component Id="cmpC28AF34BEEED8EBD83C507D03E0602C8" Guid="{8B2347D0-58BD-4EA9-9929-50BB73991F5D}">
+                                    <File Id="fil017BAA5DFEFDD0B46060A7AF54BC6F8E" KeyPath="yes" Source="$(var.publishpath)\Content\themes\base\minified\images\ui-icons_454545_256x240.png" />
+                                </Component>
+                                <Component Id="cmp458547717A9B3DB0EFD21249455CBB8A" Guid="{141EADCB-C7C0-4CE2-820A-15EB9D5319C5}">
+                                    <File Id="filF5BB81CEE271F5794A086ECEAE06E669" KeyPath="yes" Source="$(var.publishpath)\Content\themes\base\minified\images\ui-icons_888888_256x240.png" />
+                                </Component>
+                                <Component Id="cmpE8D1702977DD33F5B14018AAE0D328C8" Guid="{FB619149-05A2-48BD-9808-C97A513ED774}">
+                                    <File Id="fil371B927F85F9AF1357320E7A033AEBF9" KeyPath="yes" Source="$(var.publishpath)\Content\themes\base\minified\images\ui-icons_cd0a0a_256x240.png" />
+                                </Component>
+                            </Directory>
+                        </Directory>
+                    </Directory>
+                </Directory>
+            </Directory>
+            <Directory Id="dirDD484B37A1DE1BAED8AD05ED65FA30C2" Name="Images">
+                <Component Id="cmpCF3D154E6DCFC366A6E2ABB521DBCA0D" Guid="{A08F2C02-0B7D-46BA-B8B5-7DA4FA40FEE6}">
+                    <File Id="fil736B7BB3E8F91147CE343BA9A368AB60" KeyPath="yes" Source="$(var.publishpath)\Images\accent.png" />
+                </Component>
+                <Component Id="cmpD420888ECB51B03F7159ECDA17B15DDB" Guid="{F34A6D6A-D10E-4713-AF64-F473D878DEA1}">
+                    <File Id="filE6E417366CC19465BE037741217FF86E" KeyPath="yes" Source="$(var.publishpath)\Images\bullet.png" />
+                </Component>
+                <Component Id="cmp2E9D981E248E07418C1F4F802C567AC8" Guid="{C2635E6F-FE6D-46A6-839F-9D99A70018EF}">
+                    <File Id="fil930A7EF834528A77286D95AA9CCA415A" KeyPath="yes" Source="$(var.publishpath)\Images\heroAccent.png" />
+                </Component>
+                <Component Id="cmp5B0076C79FB9B7DCD78C5F9A44DB9933" Guid="{C4FB0316-52E8-40A3-B2E8-2DB1F09E46C4}">
+                    <File Id="fil83F31CBB9C360C1D73D8A4DB09D0C420" KeyPath="yes" Source="$(var.publishpath)\Images\orderedList0.png" />
+                </Component>
+                <Component Id="cmp992AF0D4C7E213A7EC46AF298C112C6E" Guid="{C620461F-2A82-4A8E-9CC2-CA32916B36D9}">
+                    <File Id="fil43B6731CA8B7937DA5F87FEE0CDD09C7" KeyPath="yes" Source="$(var.publishpath)\Images\orderedList1.png" />
+                </Component>
+                <Component Id="cmpFAB1BA6C3241AFD7F1089457667DB295" Guid="{0406FF38-0DC9-4192-B86C-580199A0906C}">
+                    <File Id="fil3E9087419E9D985C97CC93EE13BC84AE" KeyPath="yes" Source="$(var.publishpath)\Images\orderedList2.png" />
+                </Component>
+                <Component Id="cmp554A74AE835F915B792A2A7D98861641" Guid="{15B4D5D7-A164-4D5E-A273-5B3D1699568C}">
+                    <File Id="fil2E06934851B9D8045B6D488948EFD27E" KeyPath="yes" Source="$(var.publishpath)\Images\orderedList3.png" />
+                </Component>
+                <Component Id="cmpA08F3F98897478FE7AEC252C88FCF803" Guid="{4366E29F-FD5D-4880-BE8D-10639241B378}">
+                    <File Id="fil698CC2460A35C112FB1D59BE29CD5949" KeyPath="yes" Source="$(var.publishpath)\Images\orderedList4.png" />
+                </Component>
+                <Component Id="cmp8287D318B56E885F0587159FEEBB9668" Guid="{5D316C8E-A5A6-4367-B35D-D4ACE2B486F0}">
+                    <File Id="fil5AA6353C6AA4F4DF8534493349B88D7A" KeyPath="yes" Source="$(var.publishpath)\Images\orderedList5.png" />
+                </Component>
+                <Component Id="cmpA9023D18BE6CE70A53AD51274D6D5F8D" Guid="{8EAC96AE-DD91-458B-9BB3-F828F3E9C2B7}">
+                    <File Id="fil71DBD71A95886854FF7BCB09D2BF9744" KeyPath="yes" Source="$(var.publishpath)\Images\orderedList6.png" />
+                </Component>
+                <Component Id="cmpDD91E8D1D080A8AED8C5F648720C2CD5" Guid="{2DACE6FB-7E0C-40EC-9C0E-573E0E5FA43A}">
+                    <File Id="filF398CACCB478E8860B8853DB8CCC4A83" KeyPath="yes" Source="$(var.publishpath)\Images\orderedList7.png" />
+                </Component>
+                <Component Id="cmpEEF15E3D15CE98AF3CBD1FF71ED47ACB" Guid="{FC5C157B-560C-4AEB-9653-3071D6700B0D}">
+                    <File Id="filC56CC8F7BA4B652B2FD09AB36C12C388" KeyPath="yes" Source="$(var.publishpath)\Images\orderedList8.png" />
+                </Component>
+                <Component Id="cmp1C4CEBF4C0E5411A4694107619A42CA3" Guid="{E68307EE-B89D-4EDC-990D-B6F08B9AFC68}">
+                    <File Id="fil068D53AA8581FD5F2C7374DE9D7613BD" KeyPath="yes" Source="$(var.publishpath)\Images\orderedList9.png" />
+                </Component>
+            </Directory>
+            <Directory Id="dir44C6187D68B2EA15E8619E5445C24FCE" Name="Scripts">
+                <Component Id="cmpFBC4B7258A50FDD085C71DF366EFED03" Guid="{EE04E8E1-54BB-47A1-B8B0-25E2B8AC3DCA}">
+                    <File Id="filD10D44716A1491614DEE6C1AA306A2B8" KeyPath="yes" Source="$(var.publishpath)\Scripts\jquery-1.7.1.js" />
+                </Component>
+                <Component Id="cmpFB1E965F17C69435475D5EC00E037D8B" Guid="{9EE36B29-1F88-4C48-800C-541B0D554CCA}">
+                    <File Id="fil1E87537DDD41C102C8C041506777985C" KeyPath="yes" Source="$(var.publishpath)\Scripts\jquery-1.7.1.min.js" />
+                </Component>
+                <Component Id="cmpFA102821B81474107BE509AA77D75F2F" Guid="{41BF5A75-9E1A-4835-B9A6-4F2BB5F258DB}">
+                    <File Id="filC413829558BF1AE92297238A4A71C462" KeyPath="yes" Source="$(var.publishpath)\Scripts\jquery-ui-1.8.20.js" />
+                </Component>
+                <Component Id="cmpBC4B72F7D07194F3C400172C3891562E" Guid="{674C7935-D74F-4E83-AC55-172CA1F325A5}">
+                    <File Id="filF0BD17E053B6B9EFF0C244D8BCD7D77B" KeyPath="yes" Source="$(var.publishpath)\Scripts\jquery-ui-1.8.20.min.js" />
+                </Component>
+                <Component Id="cmp88ADE29CDB57EC15C8D1564B1809C0C7" Guid="{8E450B7C-085F-4DF0-91F7-25F329A6FFC2}">
+                    <File Id="filB349872EEA5011A73356FC18057C94D5" KeyPath="yes" Source="$(var.publishpath)\Scripts\modernizr-2.5.3.js" />
+                </Component>
+                <Component Id="cmpAA5CD97B88F178A602C20B72624A58FB" Guid="{F42D1EB1-E3ED-4EE8-BF80-70854B00A0CD}">
+                    <File Id="fil7AEB7C914C7A0B2A1462364875046205" KeyPath="yes" Source="$(var.publishpath)\Scripts\_references.js" />
+                </Component>
+                <Directory Id="dir8D6D899064A4DA63CA27C8E1B32475E2" Name="WebForms">
+                    <Component Id="cmp3F9161BBCB6EEE327A1CDFF23130297F" Guid="{5424F284-3938-4966-B9FA-F1D7929F665B}">
+                        <File Id="fil34D6472AF3FE0981BDA479E1E2AB2BEE" KeyPath="yes" Source="$(var.publishpath)\Scripts\WebForms\DetailsView.js" />
+                    </Component>
+                    <Component Id="cmpCD0536EEBE886B30EF414A54FEFB9679" Guid="{6CDC2DAC-3B6F-46BD-B809-856335A4890E}">
+                        <File Id="fil21A2479146FEAC8AEC76A78330C609E6" KeyPath="yes" Source="$(var.publishpath)\Scripts\WebForms\Focus.js" />
+                    </Component>
+                    <Component Id="cmp4A7D28BC138DA6AFB175BD16343A0DA6" Guid="{B237B652-2F93-439B-A666-4714E1627BE9}">
+                        <File Id="fil66F6C976674FDA119ADF8E94FFA07DA7" KeyPath="yes" Source="$(var.publishpath)\Scripts\WebForms\GridView.js" />
+                    </Component>
+                    <Component Id="cmpA71FBF22D76B5FBA6A36989C4C35E28E" Guid="{DDE14C8A-5931-4869-9737-E2C53226A81B}">
+                        <File Id="filFD1AF5B909D65B231AA3EB7CC5929EAD" KeyPath="yes" Source="$(var.publishpath)\Scripts\WebForms\Menu.js" />
+                    </Component>
+                    <Component Id="cmp0E2C9785A9E39FE19C9361319F7AD4AF" Guid="{89794EE5-FF23-4927-850C-763E00C9F3A4}">
+                        <File Id="fil5BA064D732DC0176DBB6748B0299F93C" KeyPath="yes" Source="$(var.publishpath)\Scripts\WebForms\MenuStandards.js" />
+                    </Component>
+                    <Component Id="cmp344C996DE91E9BEA7986BBD57F0A433C" Guid="{D7E75AF6-0452-4CBE-9724-F5B7FC36427B}">
+                        <File Id="filADB7D3DF9514ACB8CC2B49D2F50277AE" KeyPath="yes" Source="$(var.publishpath)\Scripts\WebForms\SmartNav.js" />
+                    </Component>
+                    <Component Id="cmp3578D88DE3E09EE6A41EC6AF62F35E83" Guid="{3C4C92E6-2A75-4DE3-99C1-57530AD688F5}">
+                        <File Id="fil888D718A1FBDE8E3F21C0C4543CF7BF3" KeyPath="yes" Source="$(var.publishpath)\Scripts\WebForms\TreeView.js" />
+                    </Component>
+                    <Component Id="cmpCAFDE3BDCF254BA08E783ECA036597DF" Guid="{35764402-46F7-4026-8F11-20937754EABB}">
+                        <File Id="fil2AB96C501B926042AB4BBFBF8E646313" KeyPath="yes" Source="$(var.publishpath)\Scripts\WebForms\WebForms.js" />
+                    </Component>
+                    <Component Id="cmp0FFD82ED04B0ED9D9D343E5281E49D2A" Guid="{8CF4D3AF-CE24-4750-B668-235556283308}">
+                        <File Id="fil027AB676FEB081432DC52F5BBD5FA43D" KeyPath="yes" Source="$(var.publishpath)\Scripts\WebForms\WebParts.js" />
+                    </Component>
+                    <Component Id="cmp1FBF9E089E1B81175FEB952C7A29DA9C" Guid="{29D921E3-E594-4B8C-8731-0169BDC70215}">
+                        <File Id="fil70E94CA53526A8A5F55E6A001A702C78" KeyPath="yes" Source="$(var.publishpath)\Scripts\WebForms\WebUIValidation.js" />
+                    </Component>
+                    <Directory Id="dir7C48130F289330D12987CC1C2F5181A2" Name="MSAjax">
+                        <Component Id="cmpC66F2CA1C477017B6864E302617B0CD4" Guid="{F0BB51E6-886E-44AC-AF9D-35AFDFC43EEC}">
+                            <File Id="filD14239ACF7F46C2D1855260D478951FA" KeyPath="yes" Source="$(var.publishpath)\Scripts\WebForms\MSAjax\MicrosoftAjax.js" />
+                        </Component>
+                        <Component Id="cmp781A7B5A1EF6BA831D287B1D90050211" Guid="{0AD76014-5945-40F5-A053-EFFE9993A35D}">
+                            <File Id="filBFCFD42B116D968E8776103AA930CD0A" KeyPath="yes" Source="$(var.publishpath)\Scripts\WebForms\MSAjax\MicrosoftAjaxApplicationServices.js" />
+                        </Component>
+                        <Component Id="cmp15A37876454A8AAEC4C8BEC83E0610C8" Guid="{AF159770-47C5-4027-9E25-6A48036C719E}">
+                            <File Id="fil0C8F077942AEB74C2B3E78DBD1AB828D" KeyPath="yes" Source="$(var.publishpath)\Scripts\WebForms\MSAjax\MicrosoftAjaxComponentModel.js" />
+                        </Component>
+                        <Component Id="cmp76C78C39BD05BC3FD40B19C1B953593F" Guid="{AF977674-BD14-487E-A238-5124F0F5A224}">
+                            <File Id="fil28419BFC6CCBE7F882F2309DFD98016E" KeyPath="yes" Source="$(var.publishpath)\Scripts\WebForms\MSAjax\MicrosoftAjaxCore.js" />
+                        </Component>
+                        <Component Id="cmp36E80294D6B3D416D4A720A157567063" Guid="{F4B4BCC1-8E94-48EF-A083-F2C316D1C68D}">
+                            <File Id="fil0C1AB837B69B2C012A5C7D1F12C78ED9" KeyPath="yes" Source="$(var.publishpath)\Scripts\WebForms\MSAjax\MicrosoftAjaxGlobalization.js" />
+                        </Component>
+                        <Component Id="cmp4F78A8CABA74AF684BAC3FD3B154C7B5" Guid="{B3A708CD-EE2F-4FC3-AFBE-BD78E6D18BBC}">
+                            <File Id="fil2994AE34772184CFE04DEDFB4DEBE533" KeyPath="yes" Source="$(var.publishpath)\Scripts\WebForms\MSAjax\MicrosoftAjaxHistory.js" />
+                        </Component>
+                        <Component Id="cmp521E742C0AEE97358534A0DD24B180CD" Guid="{3F0FACAD-BF1F-49CE-BD00-DF67373F58F7}">
+                            <File Id="filE8334123D623E4302A0489FA9709896B" KeyPath="yes" Source="$(var.publishpath)\Scripts\WebForms\MSAjax\MicrosoftAjaxNetwork.js" />
+                        </Component>
+                        <Component Id="cmp90DE3F9892972C2AF72F12EFCDA4F75C" Guid="{CA65399A-2390-4382-AD7E-E1DA7EA97C83}">
+                            <File Id="filE09F807463D8E2AD963E1930788CF5EF" KeyPath="yes" Source="$(var.publishpath)\Scripts\WebForms\MSAjax\MicrosoftAjaxSerialization.js" />
+                        </Component>
+                        <Component Id="cmpA80CB97E05175BC56C6C4A1EADD97AC0" Guid="{325CBF78-EEA6-4546-8192-7836D956EA7F}">
+                            <File Id="fil45F092B63F80196671EA3D48ACB9A964" KeyPath="yes" Source="$(var.publishpath)\Scripts\WebForms\MSAjax\MicrosoftAjaxTimer.js" />
+                        </Component>
+                        <Component Id="cmpE2921CEE85F7F7ECE56E0E54C2170314" Guid="{B62C60D0-D782-47C6-BD35-9458766DFE17}">
+                            <File Id="filC661FCB6C0A96599C98F739CD3344BCA" KeyPath="yes" Source="$(var.publishpath)\Scripts\WebForms\MSAjax\MicrosoftAjaxWebForms.js" />
+                        </Component>
+                        <Component Id="cmp2DDFBD8EDFAC5F1FF022AC419C61A535" Guid="{C2435B10-DEA0-4605-B1E6-2018F96639EB}">
+                            <File Id="fil2845FAD53FE8BC0DD41C7C9882C49191" KeyPath="yes" Source="$(var.publishpath)\Scripts\WebForms\MSAjax\MicrosoftAjaxWebServices.js" />
+                        </Component>
+                    </Directory>
+                </Directory>
+            </Directory>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <ComponentGroup Id="WebSetupInstallFiles">
+            <ComponentRef Id="cmp719DF3F5F4DA026D12660707674BDC81" />
+            <ComponentRef Id="cmp62FA418252C11C2D323B7FF5657B0A11" />
+            <ComponentRef Id="cmpFE199C9F0949417798AB665C5040DC4F" />
+            <ComponentRef Id="cmpCBE03EE0AF9F6B0841326F548614EE48" />
+            <ComponentRef Id="cmp18BCDCBE7DFEDEAC86EBAA695FE5CDC3" />
+            <ComponentRef Id="cmp93645FCD1A13835D0DFCD156CF2C6C64" />
+            <ComponentRef Id="cmpFED9CE4C040C6D017106CB6B92C2F157" />
+            <ComponentRef Id="cmp45D4EBF4DADDD690A9BEE3E1E4C7506F" />
+            <ComponentRef Id="cmpFB33635B7D7AF5906B5DFB25D7E4F343" />
+            <ComponentRef Id="cmpBDC37B6F8E3C1ECF6292AC1E77FF629A" />
+            <ComponentRef Id="cmp1A5F11D7EA5083C96CEF3D4562026A6E" />
+            <ComponentRef Id="cmp537319E8938999188EC9C5D879C14EE4" />
+            <ComponentRef Id="cmp0EFFD795BC052D7B5395E3BCE1C3515E" />
+            <ComponentRef Id="cmp9232063002B414C6D33F7E5302D00DE6" />
+            <ComponentRef Id="cmp6970105A866492CCD53F4BFE651666C1" />
+            <ComponentRef Id="cmpA426106E50E83F038FBE746C1E09504B" />
+            <ComponentRef Id="cmp5994A07D38DA97416E251DE4C99E5192" />
+            <ComponentRef Id="cmpC9691BA20F1D8C2B670CE77D04C695E5" />
+            <ComponentRef Id="cmp1AE9D59440E32A44BECFD7E3C99DEAAB" />
+            <ComponentRef Id="cmp1994A1D8152BEAA96BE3CB515C9D32BF" />
+            <ComponentRef Id="cmp466306F21137983420DA54DC72184491" />
+            <ComponentRef Id="cmpA875C0565FC26F51652DC264048D60BE" />
+            <ComponentRef Id="cmpDBBF4DF2CD78343AD19B34D9DFCA9CFF" />
+            <ComponentRef Id="cmp9FB708CCE7E8331648511084D866DB94" />
+            <ComponentRef Id="cmp3D8F7A091348223A4D8D6B969300CBE5" />
+            <ComponentRef Id="cmpB82AC8EF4E5EE01CCEEFC1FB5D25B892" />
+            <ComponentRef Id="cmpFA20A8C605D1633264086FD2BE9D61AB" />
+            <ComponentRef Id="cmp82B1D7908F9E0FFF16165F977511C7ED" />
+            <ComponentRef Id="cmpA2394B4EBDEEF60FD2C1AD22D8F121A3" />
+            <ComponentRef Id="cmp48B5CE506D86BF39F5848F1D62F6CFAE" />
+            <ComponentRef Id="cmp6A31FB8007844E13E98BD2057F458827" />
+            <ComponentRef Id="cmpACD232D7A34CC85C4E47206CF085DFE7" />
+            <ComponentRef Id="cmp1D6184B64F3F1969AF56912F31422062" />
+            <ComponentRef Id="cmp2E3CBC77EE2DA22117D475710026E65D" />
+            <ComponentRef Id="cmp96D710794B45BA988996F24A42EB7670" />
+            <ComponentRef Id="cmp7D32B33DA322230F7DC919F90E5041A6" />
+            <ComponentRef Id="cmp65CBA895D76D68985A7484C4C419D281" />
+            <ComponentRef Id="cmp70388B6DFB9092F6FA976A399468962F" />
+            <ComponentRef Id="cmpE0D4B6E96EECD3FF025F0B18C6669062" />
+            <ComponentRef Id="cmp69995C57DD03BAA452E835DEE8B0B160" />
+            <ComponentRef Id="cmp89B1091045DF86B8C3009E8DC4D4ED9B" />
+            <ComponentRef Id="cmp70B2717E07A77221D8C8D856BF0A9E36" />
+            <ComponentRef Id="cmpC4AC8D1A02FC3180B061D4ABE91866FB" />
+            <ComponentRef Id="cmpB1C0658923DC8CB6D3A492A0482B68C6" />
+            <ComponentRef Id="cmpF86D11067B3B32240AA44D735D6FB591" />
+            <ComponentRef Id="cmp6342080440448D35341C9C957F602267" />
+            <ComponentRef Id="cmp341AF8B58A3700EB8ABAC123371812EB" />
+            <ComponentRef Id="cmp9ECE4C2BEBB281D72090EF8DE783C495" />
+            <ComponentRef Id="cmpCD21E6C9396C35B5DE6819F0BC31443B" />
+            <ComponentRef Id="cmpEAD398A4AF779D2F906E276ABC7E6A9E" />
+            <ComponentRef Id="cmpF288DE642F124EE2B23B92CAE403F439" />
+            <ComponentRef Id="cmp0EE80B0B7B32D2B71B8CE23A9B76CF3B" />
+            <ComponentRef Id="cmp4BF7CB5FBF4D2A79C7F73C92B0CEDD35" />
+            <ComponentRef Id="cmp03EF69705E1A92F8BFA1EA14BFB1273F" />
+            <ComponentRef Id="cmp56C408206E3AC944DD3F1693CD583C68" />
+            <ComponentRef Id="cmp3C36A43B585B3F9423B9ED641576F72B" />
+            <ComponentRef Id="cmpB01FEE7081EADF0167666B28776834B3" />
+            <ComponentRef Id="cmp6FF6C26AE5FE821EE6E39031E91B8883" />
+            <ComponentRef Id="cmp30F66DD1FBC221AAEC49DE927F45567E" />
+            <ComponentRef Id="cmpC7F191B8F424383417E4F3066458005E" />
+            <ComponentRef Id="cmpA46E2D74FC3A1FF3DF9705A97811B88F" />
+            <ComponentRef Id="cmp04CC520CCE38DA6741DADA3B68F944A7" />
+            <ComponentRef Id="cmpC8DF68CAD53D0F4B705F59B27FF562C9" />
+            <ComponentRef Id="cmp07CDE5E947F4B3BC91CFA7BE4CD1D911" />
+            <ComponentRef Id="cmpE2E2D6B0B1A8A7DBE7D8C557A563C037" />
+            <ComponentRef Id="cmpA61134AA83F24C9E1DE88F4D90250214" />
+            <ComponentRef Id="cmpB998616EF6000BFD3117344825E94FDA" />
+            <ComponentRef Id="cmp0EEC7DE1352CC02F2FA0D9352C3816BB" />
+            <ComponentRef Id="cmp02E2881DCD52ABC943C593320ED2365D" />
+            <ComponentRef Id="cmpD157938750EC9D9EFE989051AF8801F4" />
+            <ComponentRef Id="cmp90450BC0B85494A8D2DE75089AAEFB54" />
+            <ComponentRef Id="cmp802808959CE936654393D37AB6393869" />
+            <ComponentRef Id="cmp612E760EBF3DD2601DCADC0C803E860E" />
+            <ComponentRef Id="cmp7140C70C81B7BA0318F0EF9E9689845F" />
+            <ComponentRef Id="cmp6F35041CAAFFE666309F3529770CF315" />
+            <ComponentRef Id="cmpAA0EF83AC56D1C1C7EA83B599DED4E0E" />
+            <ComponentRef Id="cmpCD5C94AA5AD56996F8BE2C3333507831" />
+            <ComponentRef Id="cmp599307B4961DC6E468FEE160B56B0D53" />
+            <ComponentRef Id="cmp8BBEB1863D9A5417BF4C9983ABF0FB9E" />
+            <ComponentRef Id="cmp7986EA15840B216EEA8CD3A9B2056BE0" />
+            <ComponentRef Id="cmp28A5BD1B788BFEAEE764D46163A2EB56" />
+            <ComponentRef Id="cmp171EB57FD52B61688B63553281B6DA55" />
+            <ComponentRef Id="cmp82F2F6F6516175D8F7509E473B02A594" />
+            <ComponentRef Id="cmp05E4BA3A49B00F086A70C5D2518822FE" />
+            <ComponentRef Id="cmp5325A2852789EB380852F754918B1F3B" />
+            <ComponentRef Id="cmp74D81012D881530DE54E7ED1CAB3157E" />
+            <ComponentRef Id="cmpC28AF34BEEED8EBD83C507D03E0602C8" />
+            <ComponentRef Id="cmp458547717A9B3DB0EFD21249455CBB8A" />
+            <ComponentRef Id="cmpE8D1702977DD33F5B14018AAE0D328C8" />
+            <ComponentRef Id="cmpCF3D154E6DCFC366A6E2ABB521DBCA0D" />
+            <ComponentRef Id="cmpD420888ECB51B03F7159ECDA17B15DDB" />
+            <ComponentRef Id="cmp2E9D981E248E07418C1F4F802C567AC8" />
+            <ComponentRef Id="cmp5B0076C79FB9B7DCD78C5F9A44DB9933" />
+            <ComponentRef Id="cmp992AF0D4C7E213A7EC46AF298C112C6E" />
+            <ComponentRef Id="cmpFAB1BA6C3241AFD7F1089457667DB295" />
+            <ComponentRef Id="cmp554A74AE835F915B792A2A7D98861641" />
+            <ComponentRef Id="cmpA08F3F98897478FE7AEC252C88FCF803" />
+            <ComponentRef Id="cmp8287D318B56E885F0587159FEEBB9668" />
+            <ComponentRef Id="cmpA9023D18BE6CE70A53AD51274D6D5F8D" />
+            <ComponentRef Id="cmpDD91E8D1D080A8AED8C5F648720C2CD5" />
+            <ComponentRef Id="cmpEEF15E3D15CE98AF3CBD1FF71ED47ACB" />
+            <ComponentRef Id="cmp1C4CEBF4C0E5411A4694107619A42CA3" />
+            <ComponentRef Id="cmpFBC4B7258A50FDD085C71DF366EFED03" />
+            <ComponentRef Id="cmpFB1E965F17C69435475D5EC00E037D8B" />
+            <ComponentRef Id="cmpFA102821B81474107BE509AA77D75F2F" />
+            <ComponentRef Id="cmpBC4B72F7D07194F3C400172C3891562E" />
+            <ComponentRef Id="cmp88ADE29CDB57EC15C8D1564B1809C0C7" />
+            <ComponentRef Id="cmpAA5CD97B88F178A602C20B72624A58FB" />
+            <ComponentRef Id="cmp3F9161BBCB6EEE327A1CDFF23130297F" />
+            <ComponentRef Id="cmpCD0536EEBE886B30EF414A54FEFB9679" />
+            <ComponentRef Id="cmp4A7D28BC138DA6AFB175BD16343A0DA6" />
+            <ComponentRef Id="cmpA71FBF22D76B5FBA6A36989C4C35E28E" />
+            <ComponentRef Id="cmp0E2C9785A9E39FE19C9361319F7AD4AF" />
+            <ComponentRef Id="cmp344C996DE91E9BEA7986BBD57F0A433C" />
+            <ComponentRef Id="cmp3578D88DE3E09EE6A41EC6AF62F35E83" />
+            <ComponentRef Id="cmpCAFDE3BDCF254BA08E783ECA036597DF" />
+            <ComponentRef Id="cmp0FFD82ED04B0ED9D9D343E5281E49D2A" />
+            <ComponentRef Id="cmp1FBF9E089E1B81175FEB952C7A29DA9C" />
+            <ComponentRef Id="cmpC66F2CA1C477017B6864E302617B0CD4" />
+            <ComponentRef Id="cmp781A7B5A1EF6BA831D287B1D90050211" />
+            <ComponentRef Id="cmp15A37876454A8AAEC4C8BEC83E0610C8" />
+            <ComponentRef Id="cmp76C78C39BD05BC3FD40B19C1B953593F" />
+            <ComponentRef Id="cmp36E80294D6B3D416D4A720A157567063" />
+            <ComponentRef Id="cmp4F78A8CABA74AF684BAC3FD3B154C7B5" />
+            <ComponentRef Id="cmp521E742C0AEE97358534A0DD24B180CD" />
+            <ComponentRef Id="cmp90DE3F9892972C2AF72F12EFCDA4F75C" />
+            <ComponentRef Id="cmpA80CB97E05175BC56C6C4A1EADD97AC0" />
+            <ComponentRef Id="cmpE2921CEE85F7F7ECE56E0E54C2170314" />
+            <ComponentRef Id="cmp2DDFBD8EDFAC5F1FF022AC419C61A535" />
+        </ComponentGroup>
+    </Fragment>
+</Wix>
