@@ -1,0 +1,8 @@
+C:\work\WixWebFormProject\MyCustomActions\bin\Debug\MyCustomActions.dll
+C:\work\WixWebFormProject\MyCustomActions\bin\Debug\MyCustomActions.CA.dll
+C:\work\WixWebFormProject\MyCustomActions\bin\Debug\MyCustomActions.pdb
+C:\work\WixWebFormProject\MyCustomActions\bin\Debug\Microsoft.Deployment.WindowsInstaller.dll
+C:\work\WixWebFormProject\MyCustomActions\bin\Debug\Microsoft.Deployment.WindowsInstaller.xml
+C:\work\WixWebFormProject\MyCustomActions\obj\x86\Debug\MyCustomActions.csprojResolveAssemblyReference.cache
+C:\work\WixWebFormProject\MyCustomActions\obj\x86\Debug\MyCustomActions.dll
+C:\work\WixWebFormProject\MyCustomActions\obj\x86\Debug\MyCustomActions.pdb
