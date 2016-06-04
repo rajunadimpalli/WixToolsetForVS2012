@@ -1,0 +1,5 @@
+C:\work\WixWebFormProject\MyWcfService\bin\MyWcfService.dll
+C:\work\WixWebFormProject\MyWcfService\bin\MyWcfService.pdb
+C:\work\WixWebFormProject\MyWcfService\obj\Debug\MyWcfService.csprojResolveAssemblyReference.cache
+C:\work\WixWebFormProject\MyWcfService\obj\Debug\MyWcfService.dll
+C:\work\WixWebFormProject\MyWcfService\obj\Debug\MyWcfService.pdb
